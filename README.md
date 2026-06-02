@@ -38,6 +38,27 @@ This will:
 ## Install
 curl -fsSL https://raw.githubusercontent.com/graphidevbilisim/apple-silicon-discord-warp/main/install.sh | bash
 
+## Installation
+
+Download and run:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/graphidevbilisim/apple-silicon-discord-warp/main/install.sh -o install.sh
+chmod +x install.sh
+./install.sh
+```
+
+## Usage
+
+```bash
+discord-warp
+```
+
+Discord açılırken WARP etkinleştirilir.
+
+Discord kapatıldığında WARP otomatik olarak kapatılır.
+
+
 ## Usage
 
 discord-warp
