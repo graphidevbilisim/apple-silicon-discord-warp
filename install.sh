@@ -139,9 +139,9 @@ echo "Cloudflare WARP registration required."
 echo "Accept the Cloudflare terms when prompted."
 echo
 
-```
+
 wgcf register
-```
+
 
 fi
 
