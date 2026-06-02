@@ -12,9 +12,31 @@ Launch Discord with Cloudflare WARP automatically.
 * Automatic cleanup
 * Discord-aware VPN lifecycle
 
-## Install
+## Quick Install
 
-curl -fsSL https://raw.githubusercontent.com/USERNAME/REPO/main/install.sh | bash
+Run the following command in Terminal:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/graphidevbilisim/apple-silicon-discord-warp/main/install.sh | bash
+```
+
+After installation:
+
+```bash
+discord-warp
+```
+
+This will:
+
+* Install WGCF
+* Install WireGuard Tools
+* Generate a WARP profile
+* Configure WireGuard
+* Launch Discord with WARP
+* Disable WARP automatically when Discord exits
+
+## Install
+curl -fsSL https://raw.githubusercontent.com/graphidevbilisim/apple-silicon-discord-warp/main/install.sh | bash
 
 ## Usage
 
